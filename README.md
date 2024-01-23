@@ -15,6 +15,7 @@ Ensure that you have Docker and Docker Compose installed on your machine.
 Clone the repository containing the Dockerized Journal application:
 
     git clone https://github.com/Alexander-Matte/dockerized-journal.git
+    
     cd dockerized-journal
 
 ## Docker Containers
