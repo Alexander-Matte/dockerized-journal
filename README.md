@@ -22,9 +22,9 @@ Clone the repository containing the Dockerized Journal application:
 
 This Dockerized setup consists of three containers:
 
-1.) PHP-Apache Container: Serves the PHP files using the Apache web server.
-2.) MySQL Container: Manages the MySQL database for the Journal application.
-3.) PhpMyAdmin Container: Provides a web-based interface (PhpMyAdmin) for easy database manipulation.
+1. PHP-Apache Container: Serves the PHP files using the Apache web server.
+2. MySQL Container: Manages the MySQL database for the Journal application.
+3. PhpMyAdmin Container: Provides a web-based interface (PhpMyAdmin) for easy database manipulation.
 
 ## Usage
 Build and Run Containers
@@ -36,22 +36,33 @@ Run the following command to build and start the Docker containers:
 This will create and start the containers in detached mode, allowing you to continue using your terminal.
 Access the Application
 
+To stop the containers, run:
+
+    docker-compose down
+
+### !!! IMPORTANT !!!
+Before the application can function completely, you must import the sample database before trying to login/signup. See Sample database section below.
+
 Once the containers are running, access the Journal CRUD application in your web browser:
 
 - [Journal App](http://localhost:8888)
 - [PhpMyAdmin](http://localhost:8886)
 
-To stop the containers, run:
-
-    docker-compose down
 
 ## Sample database
-Within the sampleDB you will find a file in which you can import as a sample database for the application. Visit (http://localhost:8887) and use the import tool to import the sample DB.
+Login using the following credentials
+- Server: mysql-db
+- Username: root
+- Password: root
+- Database: journal
+
+Within the sampleDB folder you will find a file in which you can import as a sample database for the application. Visit http://localhost:8886 and use the import tool to import the sample DB.
 
 ## Notes
 
 - The Journal application is now accessible at http://localhost:8888.
 - PhpMyAdmin provides a user-friendly interface for database manipulation at http://localhost:8886.
+- Every user in the sample database has the same password which is **Pa$$w0rd!**
 
 ## Contributions
 
