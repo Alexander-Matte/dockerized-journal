@@ -38,8 +38,8 @@ Access the Application
 
 Once the containers are running, access the Journal CRUD application in your web browser:
 
-[Journal App](http://localhost:8888)
-[PhpMyAdmin](http://localhost:8886)
+- [Journal App](http://localhost:8888)
+- [PhpMyAdmin](http://localhost:8886)
 
 To stop the containers, run:
 
