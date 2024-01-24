@@ -52,8 +52,8 @@ Once the containers are running, access the Journal CRUD application in your web
 ## Sample database
 Login using the following credentials
 - Server: mysql-db
-- Username: root
-- Password: root
+- Username: db_user
+- Password: db_user
 - Database: journal
 
 Within the sampleDB folder you will find a file in which you can import as a sample database for the application. Visit http://localhost:8886 and use the import tool to import the sample DB.
