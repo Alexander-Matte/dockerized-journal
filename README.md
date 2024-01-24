@@ -5,6 +5,11 @@
 Welcome to the Dockerized version of the Simple Journal CRUD application! This README provides instructions on how to set up and run the Journal application using Docker containers for PHP-Apache, MySQL, and PhpMyAdmin.
 ## Prerequisites
 
+Ensure these ports are not currently used on your computer, otherwise you will receive a message that the ports are already in use:
+- 8888
+- 8887
+- 8886
+
 Ensure that you have Docker and Docker Compose installed on your machine.
 
 - [Docker Installation Guide](https://docs.docker.com/get-docker/)
